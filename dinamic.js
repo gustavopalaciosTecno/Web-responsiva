@@ -1,5 +1,5 @@
 let boton = document.getElementById("boton");
-boton.style.backgroundColor = "blue";
+boton.style.backgroundColor = "red";
 boton.style.textAlign = "right";
 boton.style.color = "white";
 boton.style.fontSize = "24px";
@@ -61,4 +61,14 @@ function cambiarColor5(element){
         element.style.backgroundColor = "green";
     }
 }
+
+let enlace = document.getElementById("enlace");
+
+enlace.addEventListener('click', mensaje2);
+
+function mensaje2(){
+    alert("Soy un enlace");
+}
+
+
 

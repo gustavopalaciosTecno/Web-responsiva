@@ -63,7 +63,10 @@ aside {
     font-weight: bold;
     font: normal 13px arial, helvetica, sans-serif;
 }
-
+#enlace{
+    color: aliceblue;
+    font-size: 24px;
+}
 /*
 div{
   height: 200px;
