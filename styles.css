@@ -39,7 +39,7 @@ aside{
     min-height: 700px;
     float: left;
     background-color: lemonchiffon;
-
+    
 }
 
 #articles article{
@@ -52,6 +52,13 @@ aside{
     border: 2px solid white;
     float: left;
     margin: 15px;
+}
+
+div{
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  font-size: 10px;
 }
 
 /* RESPONSIVE */
