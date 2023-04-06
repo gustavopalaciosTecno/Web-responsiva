@@ -53,6 +53,52 @@ aside{
     float: left;
     margin: 15px;
 }
+
+/* RESPONSIVE */
+
+/* Desde la anchura 0 px hasta la anchura de 888px de pantalla
+se ejecutarán estos estilos */
+/* y a partir de los 888px se ejecutarán los estilos de arriba */
+@media (max-width:888px){
+    #articles article{
+        width: 40%;
+        background: red;
+
+    }
+}
+
+@media (max-width:632px) and (max-height:600px){
+    #container{
+        overflow: hidden;
+    }
+    
+    
+    aside{
+        float: none;
+        min-height: auto;
+        line-height: 20px;
+        width: 91%;
+        padding: 19px;
+    }
+    
+    #articles{
+        width:100% ;
+    }
+    h2{
+        font-size: 12px;
+    }
+    
+    #articles article{
+        width: 90%;
+        background: blue;
+    }
+}
+
+@media (max-width:500px){
+    body{
+        background: salmon
+    };
+}
     
  
 
