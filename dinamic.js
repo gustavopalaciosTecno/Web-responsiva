@@ -1,6 +1,6 @@
 let boton = document.getElementById("boton");
 boton.style.backgroundColor = "blue";
-boton.style.textAlign = "center";
+boton.style.textAlign = "right";
 boton.style.color = "white";
 boton.style.fontSize = "24px";
 
@@ -51,3 +51,14 @@ function cambiarColor4(element){
         element.style.backgroundColor = "green";
     }
 }
+
+function cambiarColor5(element){
+    var currentColor = element.style.backgroundColor;
+    if(currentColor == "green"){
+        element.style.backgroundColor = "brown";
+        
+    }else{
+        element.style.backgroundColor = "green";
+    }
+}
+
