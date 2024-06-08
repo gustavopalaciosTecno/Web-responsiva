@@ -1,0 +1,8 @@
+.layout{
+	display: grid;
+	grid-template-rows: 60px 60px auto 60px;
+	grid-template-columns: 1fr;
+	grid-template-areas: 'header' 'sidebar' 'main' 'footer';
+	height: 100vh;
+}
+
