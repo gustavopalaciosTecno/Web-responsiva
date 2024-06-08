@@ -6,7 +6,7 @@
 	height: 100vh;
 }
 
-@media (min-width: 480px){
+@media (min-width: 280px){
 	.layout{
 		display: grid;
 		grid-template-rows: 60px auto 60px;
@@ -24,6 +24,12 @@
 		background: #ccff66;
 	}
 
+	footer{
+		grid-area: footer;
+		background: #ccff66;	
+	}
+
+
 	aside{
 		grid-area: sidebar;
 		background: #f6c356;
@@ -34,10 +40,6 @@
 		background: #b2ee94;
 	}
 
-	footer{
-		grid-area: footer;
-		background: #c08bfd;	
-	}
 
 
 }
