@@ -21,7 +21,7 @@
 
 	header{
 		grid-area: header;
-		background: #c08bfd;
+		background: #ccff66;
 	}
 
 	footer{
@@ -39,5 +39,5 @@
 		background: #b2ee94;
 	}
 
-	
+
 }
