@@ -24,11 +24,6 @@
 		background: #ccff66;
 	}
 
-	footer{
-		grid-area: footer;
-		background: #c08bfd;	
-	}
-
 	aside{
 		grid-area: sidebar;
 		background: #f6c356;
@@ -37,6 +32,11 @@
 	main{
 		grid-area: main;
 		background: #b2ee94;
+	}
+
+	footer{
+		grid-area: footer;
+		background: #c08bfd;	
 	}
 
 
