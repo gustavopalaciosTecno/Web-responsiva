@@ -6,3 +6,36 @@
 	height: 100vh;
 }
 
+@media (min-width: 480px){
+	.layout{
+		display: grid;
+		grid-template-rows: 60px auto 60px;
+		grid-template-columns: 160px auto;
+		grid-template-areas: 
+		'header header header'
+		'sidebar main main'
+		'footer footer footer';
+
+
+	}
+
+	header{
+		grid-area: header;
+		background: #c08bfd;
+	}
+
+	footer{
+		grid-area: footer;
+		background: #c08bfd;	
+	}
+
+	aside{
+		grid-area: sidebar;
+		background: #f6c356;
+	}
+
+	main{
+		grid-area: main;
+		background: #b2ee94;
+	}
+}
