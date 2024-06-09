@@ -66,6 +66,25 @@
 		text-align: center;
 	}
 
+	form,label{
+		padding: 25px;
+		font-size: 100%;
+		width: 50%;
+		margin: 10px;
+	}
+	input{
+		width: 100%;
+		margin: 10px;
+		padding: 5px;
+	}
+	#boton{
+		color: blue;
+		padding: 5px;
+		width: 60%;
+		border-radius: 120px;
+	}
+	
+
 	footer{
 		grid-area: footer;
 		background: #aaccff;
@@ -77,6 +96,6 @@
 	}
 	p,span{
 		color: blueviolet;
-
+		text-align: center;
 	}
 }
