@@ -38,6 +38,23 @@ function calcularIMC() {
     }
 }
 
+function perbiriBono(){
+  
+     edad = parseInt(prompt("Ingresa tu edad: "));
+     ingreso = parseInt(prompt("Ingresa tu sueldo: "));
+     tarjeta = prompt("Ingresa 'si' tenes tarjeta alimentar o 'no' no tenes tarjeta alimentar: ").toLocaleLowerCase();
+
+     if(edad >= 18 && ingreso > 10000 && tarjeta == "si"){
+        alert("Anda a trabajar");
+     }else{
+        alert("No podes percibir el bono, lo siento mucho pedazo de trolo!");
+     }
+    
+
+}
+
+perbiriBono()
+
 
 
 
