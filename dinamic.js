@@ -13,7 +13,7 @@ function mostrar(){
     if( ingresos < 10000 && edad >=18){
         alert(`te llamas ${nombre}-${apellido} tus ingresos son ${ingresos} y tu edad es de unos ${edad} años-PODES PERCIBIR LA TARJETA ALIMENTAR-FELICITACIONES K !!!`);
     }else{
-        alert("NO podes percibir la tarjeta alementar");
+        alert("NO podes percibir la tarjeta alementar, lamentablemente tenés que trabajar señor seguidor de Milei");
     }
     // alert("Hola programadro/a, " + nombre + " " + apellido + 
     //       "\ntu DNI es: " + dni + 
