@@ -95,6 +95,12 @@ function calcularIMC() {
 // }
 
 
+const edad = 18;
+
+const acceso = (edad === 18)? 'codigo=>35877990':'15-05-1999';
+console.log(acceso);
+
+
 
 
 
