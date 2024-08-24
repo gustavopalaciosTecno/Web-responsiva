@@ -5,12 +5,19 @@ function activarBoton(){
 function mostrar(){
     let nombre = document.getElementById("nombre").value;
     let apellido = document.getElementById("apellido").value;
-    let dni = document.getElementById("documento").value;
-    let fechaNacimiento = document.getElementById("fechaNacimeinto").value;
+    // // let dni = document.getElementById("documento").value;
+    // let fechaNacimiento = document.getElementById("fechaNacimeinto").value;
+    let ingresos = document.getElementById("ingresos").value;
+    let edad = document.getElementById("edad").value;
 
-    alert("Hola programadro/a, " + nombre + " " + apellido + 
-          "\ntu DNI es: " + dni + 
-          "\ntu Fecha de Nacimiento es: " + fechaNacimiento);
+    if( ingresos < 10000 && edad >=18){
+        alert(`te llamas ${nombre}-${apellido} tus ingresos son ${ingresos} y tu edad es de unos ${edad} años-PODES PERCIBIR LA TARJETA ALIMENTAR-FELICITACIONES K !!!`);
+    }else{
+        alert("NO podes percibir la tarjeta alementar");
+    }
+    // alert("Hola programadro/a, " + nombre + " " + apellido + 
+    //       "\ntu DNI es: " + dni + 
+    //       "\ntu Fecha de Nacimiento es: " + fechaNacimiento);
 }
 
 function calcularIMC() {
@@ -38,22 +45,51 @@ function calcularIMC() {
     }
 }
 
-function perbiriBono(){
+// function perbiriBono(){
   
-     edad = parseInt(prompt("Ingresa tu edad: "));
-     ingreso = parseInt(prompt("Ingresa tu sueldo: "));
-     tarjeta = prompt("Ingresa 'si' tenes tarjeta alimentar o 'no' no tenes tarjeta alimentar: ").toLocaleLowerCase();
+//      edad = parseInt(prompt("Ingresa tu edad: "));
+//      ingreso = parseInt(prompt("Ingresa tu sueldo: "));
+//      tarjeta = prompt("Ingresa 'si' tenes tarjeta alimentar o 'no' no tenes tarjeta alimentar: ").toLocaleLowerCase();
 
-     if(edad >= 18 && ingreso > 10000 && tarjeta == "si"){
-        alert("Anda a trabajar");
-     }else{
-        alert("No podes percibir el bono, lo siento mucho pedazo de trolo!");
-     }
+//      if(edad >= 18 && ingreso > 10000 && tarjeta == "si"){
+//         alert("Anda a trabajar");
+//      }else{
+//         alert("No podes percibir el bono, lo siento mucho pedazo de trolo!");
+//      }
     
 
-}
+// }
 
-perbiriBono()
+// perbiriBono()
+
+// semana = parseInt(prompt("Coloca un valor numérico: "));
+
+// switch(semana){
+//     case 1:
+//         alert(`el valor ${semana} corresponde al día domingo`);
+//         break;
+//     case 2:
+//         alert(`el valor ${semana} corresponde al día lunes`);
+//         break;
+//     case 3:
+//         alert(`el valor ${semana} corresponde al día martes`);
+//         break;
+//     case 4:
+//         alert(`el valor ${semana} corresponde al día miércoles`);
+//         break;  
+//     case 5:
+//         alert(`el valor ${semana} corresponde al día jueves`);
+//         break;
+//     case 6:
+//         alert(`el valor ${semana} corresponde al día viernes`);
+//         break;  
+//     case 7:
+//         alert(`el valor ${semana} corresponde al día sábado`);
+//         break;            
+//     default:
+//         alert("No es el día indicado");
+//         break;        
+// }
 
 
 
