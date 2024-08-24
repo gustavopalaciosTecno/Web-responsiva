@@ -13,17 +13,30 @@ function mostrar(){
           "\ntu Fecha de Nacimiento es: " + fechaNacimiento);
 }
 
-function consultar(){
-    let nombre = document.getElementById("nombre").value;
-    let edad = document.getElementById("edad").value;
+function calcularIMC() {
+    let peso = document.getElementById("peso").value;
+    let altura = document.getElementById("altura").value;
 
-    if(edad >= 18){
-        alert(`Hola ${nombre} sos mayor de edad y podes ver el sitio tranquilamente.`);
-    }else{
-        alert(`Hola ${nombre}, por favor NO sos mayor de edad`)
+    if (peso > 0 && altura > 0) {
+        let imc = peso / (altura * altura);
+        
+        // document.getElementById("resultado").textContent = `Tu IMC es ${imc.toFixed(2)}`;
+        let mensaje;
+
+        if (imc < 18.5) {
+            mensaje = "por debajo del peso normal";
+        } else if (imc >= 18.5 && imc < 24.9) {
+            mensaje = "con peso normal";
+        } else if (imc >= 25 && imc < 29.9) {
+            mensaje = "con sobrepeso";
+        } else {
+            mensaje = "con obesidad";
+        }
+        alert(`Tu índice de masa corporal es: ${imc.toFixed(10)}. Estas ${mensaje}`);
+    } else {
+        alert("Por favor ingresa valores válidos para peso y altura.");
     }
 }
-
 
 
 

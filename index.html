@@ -23,9 +23,15 @@
         </ul>
         </aside>
         <main>
-        Nombre: <input type="text" id="nombre" style="width: 150px;"><br><br>    
-        Edad: <input type="text" id="edad" style="width: 150px;"><br><br>
-        <button onclick="consultar();">Consultar: </button>
+            <h2>Calculadora de Índice de Masa Corporal (IMC)</h2>
+
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" style="width: 150px;" placeholder="Ingresa tu peso en kg" required><br><br>
+            
+            <label for="altura">Altura (m):</label>
+            <input type="number" id="altura" style="width: 150px;" step="0.01" placeholder="Ingresa tu altura en metros" required><span>Expresa el valor con puntos</span><br><br>
+            
+            <button onclick="calcularIMC()">Calcular IMC</button>
         <h3>Soy un menú de opciones</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quia eaque eligendi ad nisi minima totam odit quod vitae officia fuga facilis, sint. Consequuntur veritatis explicabo dolore maxime necessitatibus! Laborum, quis?</p>
 
