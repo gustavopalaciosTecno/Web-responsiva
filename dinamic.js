@@ -8,9 +8,9 @@ function mostrar(){
     let dni = document.getElementById("documento").value;
     let fechaNacimiento = document.getElementById("fechaNacimeinto").value;
 
-    alert("Hola, " + nombre + " " + apellido + 
-          "\nDNI: " + dni + 
-          "\nFecha de Nacimiento: " + fechaNacimiento);
+    alert("Hola programadro/a, " + nombre + " " + apellido + 
+          "\ntu DNI es: " + dni + 
+          "\ntu Fecha de Nacimiento es: " + fechaNacimiento);
 }
 
 
