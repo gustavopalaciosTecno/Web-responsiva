@@ -95,10 +95,27 @@ function calcularIMC() {
 // }
 
 
-const edad = 18;
+function convertirCelsiusAFahrenheit() {
+    let celsius = document.getElementById("celsius").value;
+    if (celsius !== "") {
+        let fahrenheit = (celsius * 9/5) + 32;
+        document.getElementById("resultado").textContent = `${celsius}°C son ${fahrenheit.toFixed(2)}°F.`;
+    } else {
+        alert("Por favor ingresa un valor en grados Celsius.");
+    }
+}
 
-const acceso = (edad === 18)? 'codigo=>35877990':'15-05-1999';
-console.log(acceso);
+function convertirFahrenheitACelsius() {
+    let fahrenheit = document.getElementById("fahrenheit").value;
+    if (fahrenheit !== "") {
+        let celsius = (fahrenheit - 32) * 5/9;
+        document.getElementById("resultado").textContent = `${fahrenheit}°F son ${celsius.toFixed(2)}°C.`;
+    } else {
+        alert("Por favor ingresa un valor en grados Fahrenheit.");
+    }
+}
+
+
 
 
 
