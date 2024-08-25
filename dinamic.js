@@ -115,16 +115,24 @@ function convertirFahrenheitACelsius() {
     }
 }
 
+class Empleado{
+    constructor(name1,surname,age){
+        this.name1=name1;
+        this.surname=surname
+        this.age=age;
+    }
+    obtenerPost(){
+        const saludo = ['post1','post2'];
+        return saludo;
+        
+    }
+}
+
+const emp = new Empleado("Néstor","Palacios",53);
+console.log(emp.obtenerPost());
 
 
-// let suma = ()=>{
-//     let valor1 = parseFloat(prompt("coloca un valor: "));
-//     let valor2 = parseFloat(prompt("coloca otro valor valor: "));
-//     let resultado = (valor1 + valor2);
-//     return alert(resultado);
-// }
 
-// suma()
 
 
 
