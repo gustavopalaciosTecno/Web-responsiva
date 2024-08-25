@@ -2,6 +2,9 @@
 	font-family:'Courier New', Courier, monospace;
 	font-weight: bold;
 }
+body{
+	background: #f3ebda;
+}
 .layout{
 	display: grid;
 	grid-template-rows: 60px 60px auto 60px;
@@ -25,8 +28,8 @@
 
 	header{
 		grid-area: header;
-		background: #ccff66;
-		box-shadow: 2px 1px 15px 10px rgb(120, 10, 5, 1.0);
+		/* background: #ccff66; */
+		box-shadow: 2px 1px 15px 1px rgb(20, 10, 150, 1.0);	
 	}
 
 	h1{
@@ -44,8 +47,8 @@
 
 	aside{
 		grid-area: sidebar;
-		background: #f6c356;
-		box-shadow: 2px 1px 15px 10px rgb(10, 100, 5, 2.0);
+		/* background: #f6c356; */
+		box-shadow: 2px 1px 15px 1px rgb(20, 10, 150, 1.0);	
 	}
 
 	h2{
@@ -58,8 +61,8 @@
 
 	main{
 		grid-area: main;
-		background: #b2ee94;
-		box-shadow: 2px 1px 15px 10px rgb(12, 10, 50, 2.0);
+		/* background: #b2ee94; */
+		box-shadow: 2px 1px 15px 1px rgb(20, 10, 150, 1.0);	
 	}
 
 	h3{
@@ -87,8 +90,8 @@
 
 	footer{
 		grid-area: footer;
-		background: #aaccff;
-		box-shadow: 2px 1px 15px 10px rgb(20, 10, 150, 1.0);	
+		/* background: #aaccff; */
+		box-shadow: 2px 1px 15px 1px rgb(20, 10, 150, 1.0);	
 	}
 
 	h4{

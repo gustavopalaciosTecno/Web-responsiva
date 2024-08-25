@@ -117,6 +117,25 @@ function convertirFahrenheitACelsius() {
 
 
 
+// let suma = ()=>{
+//     let valor1 = parseFloat(prompt("coloca un valor: "));
+//     let valor2 = parseFloat(prompt("coloca otro valor valor: "));
+//     let resultado = (valor1 + valor2);
+//     return alert(resultado);
+// }
+
+// suma()
+
+
+
+
+
+
+
+
+
+
+
 
 
 
