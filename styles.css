@@ -65,6 +65,14 @@ body{
 		box-shadow: 2px 1px 15px 1px rgb(20, 10, 150, 1.0);	
 	}
 
+	button{
+		color: blueviolet;
+		font-weight: bold;
+		margin: 15px;
+		font-size: 20px;
+	}
+
+	
 	h3{
 		text-align: center;
 	}
@@ -76,15 +84,17 @@ body{
 		margin: 10px;
 	}
 	input{
-		width: 100%;
+		width: 50%;
 		margin: 10px;
 		padding: 5px;
+		font-size: 18px;
 	}
 	#boton{
-		color: blue;
-		padding: 5px;
-		width: 60%;
-		border-radius: 120px;
+		color: blueviolet;
+		font-weight: bold;
+		margin: 15px;
+		font-size: 20px;
+		
 	}
 	
 
