@@ -132,6 +132,7 @@ const emp = new Empleado("Néstor","Palacios",53);
 console.log(emp.obtenerPost());
 
 
+    
 
 
 

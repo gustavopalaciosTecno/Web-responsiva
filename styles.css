@@ -1,9 +1,11 @@
 *{
 	font-family:'Courier New', Courier, monospace;
 	font-weight: bold;
+	font-size: 21px;
+	margin-left: 15px;
 }
 body{
-	background: #f3ebda;
+	background: #81e468;
 }
 .layout{
 	display: grid;
@@ -90,7 +92,7 @@ body{
 		font-size: 18px;
 	}
 	#boton{
-		color: blueviolet;
+		color: rgb(32, 4, 58);
 		font-weight: bold;
 		margin: 15px;
 		font-size: 20px;
