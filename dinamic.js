@@ -115,6 +115,7 @@ function convertirFahrenheitACelsius() {
     }
 }
 
+
 class Empleado{
     constructor(name1,surname,age){
         this.name1=name1;
