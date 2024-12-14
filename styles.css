@@ -99,9 +99,11 @@ body{
 	}
 	#boton{
 		color: rgb(32, 4, 58);
+		background-color: #55ddcc;
 		font-weight: bold;
 		font-size: 15px;
 		margin: 1px;
+				
 	}
 	
 
