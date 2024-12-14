@@ -1,11 +1,11 @@
 *{
 	font-family:'Courier New', Courier, monospace;
 	font-weight: bold;
-	font-size: 21px;
-	margin-left: 15px;
+	margin-left: 20px;
 }
 body{
-	background: #81e468;
+	background: #a3c09c;
+	background: linear-gradient(#b49cec,#7fa5ec,rgb(232, 241, 232));
 }
 .layout{
 	display: grid;
@@ -37,6 +37,7 @@ body{
 	h1{
 		font-size: 3rem;
 		color: rgb(5,50,150);
+		
 	}
 
 	img{
@@ -51,14 +52,19 @@ body{
 		grid-area: sidebar;
 		/* background: #f6c356; */
 		box-shadow: 2px 1px 15px 1px rgb(20, 10, 150, 1.0);	
+		margin-left: 10px;
+		
 	}
 
 	h2{
 		text-decoration: underline;
+		font-size: 2rem;
 	}
 	ul,li,a{
 		text-decoration: none;
 		text-transform: uppercase;
+		margin:2px;
+		font-size: 21px;
 	}
 
 	main{
