@@ -77,9 +77,9 @@ body{
 		color: blueviolet;
 		font-weight: bold;
 		margin: 15px;
-		font-size: 20px;
+		font-size: 21px;
+		
 	}
-
 	
 	h3{
 		text-align: center;
@@ -100,9 +100,8 @@ body{
 	#boton{
 		color: rgb(32, 4, 58);
 		font-weight: bold;
-		margin: 15px;
-		font-size: 20px;
-		
+		font-size: 15px;
+		margin: 1px;
 	}
 	
 
