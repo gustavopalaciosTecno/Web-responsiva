@@ -64,6 +64,12 @@ aside {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+@media (min-width:412px) {
+    aside{
+        margin-right: 120px;
+    }
+}
+
 aside h2 {
     margin-bottom: 10px;
     font-size: 1.4rem;
@@ -105,17 +111,7 @@ main h3 {
     color: #333;
 }
 
-section{
-    margin: 15px;
-   
-}
 
-@media(min-width:480px){
-    section{
-        padding: -250px;
-       
-    }
-}
 
 /* Formulario */
 form {
