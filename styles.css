@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 18px;
 }
 
 body {
@@ -14,106 +15,13 @@ body {
     padding: 0;
 }
 
-/* Layout principal */
-.layout {
-    display: grid;
-    grid-template-areas:
-        "header header"
-        "aside main"
-        "footer footer";
-    grid-template-columns: 250px 1fr;
-    grid-template-rows: auto 1fr auto;
-    gap: 15px;
-    min-height: 100vh;
-    padding: 10px;
+.layout{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
 }
 
-header {
-    grid-area: header;
-    text-align: center;
-    background-color: #5a67d8;
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-@media(min-width:768px){
-    header{
-        background-color: rgb(85, 153, 170);
-        padding: 5px;
-        
-    }
-}
-
-header h1 {
-    margin: 0;
-    font-size: 1.8rem;
-}
-
-header img {
-    width: 100px;
-    margin-top: 10px;
-    border-radius: 50%;
-}
-
-aside {
-    grid-area: aside;
-    background-color: #e2e8f0;
-    padding: 5px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-@media (min-width:412px) {
-    aside{
-        margin-right: 120px;
-    }
-}
-
-aside h2 {
-    margin-bottom: 10px;
-    font-size: 1.4rem;
-    color: #333;
-}
-
-aside ul {
-    list-style: none;
-    padding: 0;
-}
-
-aside ul li {
-    margin: 10px 0;
-}
-
-aside ul li a {
-    text-decoration: none;
-    color: #5a67d8;
-    font-weight: bold;
-}
-
-
-aside ul li a:hover {
-    text-decoration: underline;
-}
-
-main {
-    grid-area: main;
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-
-main h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-
-
-/* Formulario */
 form {
     display: flex;
     flex-direction: column;
@@ -125,9 +33,15 @@ form {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-label {
-    font-weight: bold;
-    margin-bottom: 5px;
+/* Footer */
+footer {
+    grid-area: footer;
+    background-color: #333;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.9rem;
 }
 
 input {
@@ -160,17 +74,6 @@ p {
     font-size: 0.9rem;
     color: #555;
     margin: 5px 0;
-}
-
-/* Footer */
-footer {
-    grid-area: footer;
-    background-color: #333;
-    color: #f9f9f9;
-    text-align: center;
-    padding: 10px;
-    border-radius: 8px;
-    font-size: 0.9rem;
 }
 
 footer p {
