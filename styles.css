@@ -6,11 +6,12 @@
     font-size: 18px;
 }
 
-img{
+img {
     border-radius: 150px;
     box-shadow: 2px 2px 15px 10px;
 }
-img:hover{
+
+img:hover {
     transform: scale(1.1);
     transition: 2s all;
 }
@@ -24,7 +25,7 @@ body {
     padding: 0;
 }
 
-.layout{
+.layout {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -72,11 +73,12 @@ input[type="button"] {
     font-weight: bold;
     cursor: pointer;
     border: none;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s;
 }
 
 input[type="button"]:hover {
     background-color: #434190;
+    transform: translateY(-2px); /* Efecto de elevación */
 }
 
 p {
@@ -87,5 +89,52 @@ p {
 
 footer p {
     margin: 5px 0;
-	color: #f9f9f9;
+    color: #f9f9f9;
+}
+
+/* Estilos de la calculadora */
+#appBg {
+    height: 400px; /* Ajusta la altura */
+    width: 280px; /* Ajusta el ancho */
+    border: 2px solid #fff;
+    border-radius: 10px; /* Bordes más redondeados */
+    background-color: #ffffff; /* Fondo blanco */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra más suave */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido */
+}
+
+#appBg form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espacio entre los elementos */
+}
+
+#appBg input[type=text] {
+    width: 100%; /* Ajusta el ancho */
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding: 10px; /* Ajusta el padding */
+    text-align: right;
+    font-size: 40px; /* Ajusta el tamaño de la fuente */
+    border: 1px solid #ccc; /* Añade un borde */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f0f0f0; /* Fondo gris claro */
+}
+
+#appBg input[type=button], input[type=reset] {
+    width: 22%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px; /* Ajusta el tamaño de la fuente */
+    color: white;    
+    padding: 15px; /* Ajusta el padding */
+    margin: 5px; /* Espacio entre botones */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease, transform 0.2;
 }
