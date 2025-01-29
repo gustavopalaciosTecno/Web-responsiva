@@ -57,6 +57,7 @@ footer {
     padding: 10px;
     border-radius: 8px;
     font-size: 0.9rem;
+    margin-top: 8rem;
 }
 
 input {
@@ -143,3 +144,5 @@ footer p {
     border-radius: 5px; /* Bordes redondeados */
     transition: background-color 0.3s ease, transform 0.2;
 }
+
+
