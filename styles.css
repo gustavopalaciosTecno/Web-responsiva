@@ -6,6 +6,15 @@
     font-size: 18px;
 }
 
+img{
+    border-radius: 150px;
+    box-shadow: 2px 2px 15px 10px;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 2s all;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
