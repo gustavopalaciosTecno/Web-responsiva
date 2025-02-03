@@ -7,8 +7,9 @@
 }
 
 img {
-    border-radius: 150px;
-    box-shadow: 2px 2px 15px 10px;
+    border-radius: 300px;
+    box-shadow: 2px 2px 15px 10px #5a67d8;
+    width: 220px;
 }
 
 img:hover {
@@ -40,11 +41,11 @@ form {
     border: 1px solid #ccc;
     border-radius: 8px;
     background-color: #f9f9f9;
-    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 8px 15px #5a67d8;
 }
 
 form:hover{
-    box-shadow: 15px 15px 15px rgba(0, 0,0,5.0);
+    box-shadow: 15px 15px 15px rgba(0, 0,0,7.0);
     transition: 2s all;
 }
 
@@ -85,6 +86,21 @@ input[type="button"] {
 input[type="button"]:hover {
     background-color: #434190;
     transform: translateY(-2px); /* Efecto de elevación */
+}
+
+#boton1{
+    background-color: #5a67d8;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #0a0909;
+    border-radius: 100px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+#boton1:hover{
+    background-color: #434190;
+    transform: translateY(-2px);
 }
 
 p {

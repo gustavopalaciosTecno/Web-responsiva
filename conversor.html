@@ -21,24 +21,29 @@
                 <li><a href="index.html">IMC</a></li>
                 <!--<li><a href="#">Ver Más</a></li>-->
                 <li><a href="contacto.html">Inscripción</a></li>
-                <li><a href="calculadora.html">Calculadora básica</a></li>
+                <li><a href="calculadora.html">Calculadora</a></li>
                 <li><a href="conversor.html">Conversor de Temperatura</a></li>
             </ul>
         </aside>
 
    
         <main>
-            <section>
-                <h2>Calculadora de Índice de Masa Corporal (IMC)</h2>
-                <label for="peso">Peso (kg):</label>
-                <input type="number" id="peso" placeholder="Peso en kg" required>
-                <br><br>
-                <label for="altura">Altura (m):</label>
-                <input type="number" id="altura" step="0.01" placeholder="Altura en metros" required>
-                <button id="boton1" onclick="calcularIMC()">Calcular IMC</button>
-            </section>
+          
 
-            
+            <section>
+                <h2>Conversor de Temperatura</h2>
+                <div class="convertidor">
+                    <label for="celsius">Grados Celsius:</label>
+                    <input type="number" id="celsius" placeholder="Celsius">
+                    <br><br>
+                    <label for="fahrenheit">Grados Fahrenheit:</label>
+                    <input type="number" id="fahrenheit" placeholder="Fahrenheit">
+                    <br><br>
+                    <button  onclick="convertirCelsiusAFahrenheit()">Celsius a Fahrenheit</button>
+                    <button  onclick="convertirFahrenheitACelsius()">Fahrenheit a Celsius</button>
+                    <p id="resultado" class="resultado"></p> <!-- Aquí se mostrarán los resultados -->
+                </div>
+            </section>
 
             <section class="contenido-texto">
                 <h3>Información adicional</h3>
