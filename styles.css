@@ -30,8 +30,14 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 25px;
 }
+
+img{
+    height: 85%;
+    width: 50%;
+}
+
 
 form {
     display: flex;
@@ -39,9 +45,10 @@ form {
     gap: 10px;
     padding: 15px;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 16px;
     background-color: #f9f9f9;
     box-shadow: 5px 8px 15px #5a67d8;
+    margin: 16px;
 }
 
 form:hover{
@@ -107,6 +114,16 @@ p {
     font-size: 0.9rem;
     color: #555;
     margin: 5px 0;
+}
+
+#boton2, #boton3{
+    background-color: #5a67d8;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #0a0909;
+    border-radius: 100px;
+    transition: background-color 0.3s ease, transform 0.2s;
 }
 
 footer p {
