@@ -7,9 +7,9 @@
 }
 
 img {
-    border-radius: 300px;
+    border-radius: 55%;
     box-shadow: 2px 2px 15px 10px #5a67d8;
-    width: 220px;
+    width: 250px;
 }
 
 img:hover {
@@ -31,11 +31,6 @@ body {
     justify-content: center;
     flex-direction: column;
     margin-left: 25px;
-}
-
-img{
-    height: 85%;
-    width: 50%;
 }
 
 
